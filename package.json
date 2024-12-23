@@ -1,4 +1,25 @@
 {
   "name": "dependency-testing",
-  "packageManager": "yarn@4.5.3"
+  "packageManager": "yarn@4.5.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.11.0",
+    "@aws-amplify/backend-cli": "^1.4.5",
+    "@aws-sdk/types": "^3.714.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "aws-cdk-lib": "^2.173.2",
+    "constructs": "^10.4.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.11.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
