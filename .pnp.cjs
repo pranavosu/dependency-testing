@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:19.0.2"],\
           ["@types/react-dom", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:19.0.2"],\
           ["@vitejs/plugin-react", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:4.3.4"],\
-          ["aws-amplify", "npm:6.11.0"],\
+          ["aws-amplify", "npm:6.11.1-unstable.9800"],\
           ["aws-cdk-lib", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:2.173.2"],\
           ["constructs", "npm:10.4.2"],\
           ["react", "npm:19.0.0"],\
@@ -126,7 +126,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-ai-constructs-virtual-3fac853760/3/.yarn/berry/cache/@aws-amplify-ai-constructs-npm-1.2.0-174d3e881d-10c0.zip/node_modules/@aws-amplify/ai-constructs/",\
         "packageDependencies": [\
           ["@aws-amplify/ai-constructs", "virtual:12ed86c4eafd8d3e8abc499e30c3ee85bb886bd61df0d8260d1fa7c9b24841d16b8e92afb9ee1a1ee9534ffdf751eefc7878e50411805a0a36ef53e0ddac88c3#npm:1.2.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/platform-core", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.4.0"],\
           ["@aws-amplify/plugin-types", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.6.0"],\
           ["@aws-sdk/client-bedrock-runtime", "npm:3.716.0"],\
@@ -147,18 +147,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/analytics", [\
-      ["npm:7.0.64", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-analytics-npm-7.0.64-1f75108989-10c0.zip/node_modules/@aws-amplify/analytics/",\
+      ["npm:7.0.65-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-analytics-npm-7.0.65-unstable.9800-08504e5b53-10c0.zip/node_modules/@aws-amplify/analytics/",\
         "packageDependencies": [\
-          ["@aws-amplify/analytics", "npm:7.0.64"]\
+          ["@aws-amplify/analytics", "npm:7.0.65-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:7.0.64", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-analytics-virtual-f74ce8d958/3/.yarn/berry/cache/@aws-amplify-analytics-npm-7.0.64-1f75108989-10c0.zip/node_modules/@aws-amplify/analytics/",\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:7.0.65-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-analytics-virtual-d7e60bf898/3/.yarn/berry/cache/@aws-amplify-analytics-npm-7.0.65-unstable.9800-08504e5b53-10c0.zip/node_modules/@aws-amplify/analytics/",\
         "packageDependencies": [\
-          ["@aws-amplify/analytics", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:7.0.64"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/analytics", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:7.0.65-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@aws-sdk/client-firehose", "npm:3.621.0"],\
           ["@aws-sdk/client-kinesis", "npm:3.621.0"],\
           ["@aws-sdk/client-personalize-events", "npm:3.621.0"],\
@@ -174,24 +174,37 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/api", [\
-      ["npm:6.1.9", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-npm-6.1.9-97f419eec7-10c0.zip/node_modules/@aws-amplify/api/",\
+      ["npm:6.1.10-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-npm-6.1.10-unstable.9800-201c84089e-10c0.zip/node_modules/@aws-amplify/api/",\
         "packageDependencies": [\
-          ["@aws-amplify/api", "npm:6.1.9"],\
-          ["@aws-amplify/api-graphql", "npm:4.6.7"],\
-          ["@aws-amplify/api-rest", "virtual:97f419eec73fb87f6863f73ae63c2a6f2edb293da8f8d63416c457ff58dfc44ce5e6464575777a9d40d63e667d3f1c05cbbc7a73e9edb9d3704873843d54ba0a#npm:4.0.64"],\
+          ["@aws-amplify/api", "npm:6.1.10-unstable.9800"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.1.10-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-api-virtual-7bf89b46c4/3/.yarn/berry/cache/@aws-amplify-api-npm-6.1.10-unstable.9800-201c84089e-10c0.zip/node_modules/@aws-amplify/api/",\
+        "packageDependencies": [\
+          ["@aws-amplify/api", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.1.10-unstable.9800"],\
+          ["@aws-amplify/api-graphql", "npm:4.6.8-unstable.9800"],\
+          ["@aws-amplify/api-rest", "virtual:022872e56cc13db5f4e5485dbe916092f910cc80bd6fc42b00c6625253fedd6b2d9c541ebba67043051653260bcecd672b04cae1a0eaa1e01d20c439e5d440b7#npm:4.0.65-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
+          ["@types/aws-amplify__core", null],\
           ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@aws-amplify/core",\
+          "@types/aws-amplify__core"\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@aws-amplify/api-graphql", [\
-      ["npm:4.6.7", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-graphql-npm-4.6.7-7607f7521b-10c0.zip/node_modules/@aws-amplify/api-graphql/",\
+      ["npm:4.6.8-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-graphql-npm-4.6.8-unstable.9800-022872e56c-10c0.zip/node_modules/@aws-amplify/api-graphql/",\
         "packageDependencies": [\
-          ["@aws-amplify/api-graphql", "npm:4.6.7"],\
-          ["@aws-amplify/api-rest", "virtual:7607f7521b314ff56475ced9a1d8221f215431c2d395b4e17b19ee5fadc57cbcb01c46839933ba37bb4c79d495a1717012b5423d8a13ed2aab3d35a4035a04c2#npm:4.0.64"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/api-graphql", "npm:4.6.8-unstable.9800"],\
+          ["@aws-amplify/api-rest", "virtual:022872e56cc13db5f4e5485dbe916092f910cc80bd6fc42b00c6625253fedd6b2d9c541ebba67043051653260bcecd672b04cae1a0eaa1e01d20c439e5d440b7#npm:4.0.65-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@aws-amplify/data-schema", "npm:1.17.2"],\
           ["@aws-sdk/types", "npm:3.387.0"],\
           ["graphql", "npm:15.8.0"],\
@@ -203,32 +216,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/api-rest", [\
-      ["npm:4.0.64", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-rest-npm-4.0.64-55ea8aa11d-10c0.zip/node_modules/@aws-amplify/api-rest/",\
+      ["npm:4.0.65-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-api-rest-npm-4.0.65-unstable.9800-2c186a9c4e-10c0.zip/node_modules/@aws-amplify/api-rest/",\
         "packageDependencies": [\
-          ["@aws-amplify/api-rest", "npm:4.0.64"]\
+          ["@aws-amplify/api-rest", "npm:4.0.65-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7607f7521b314ff56475ced9a1d8221f215431c2d395b4e17b19ee5fadc57cbcb01c46839933ba37bb4c79d495a1717012b5423d8a13ed2aab3d35a4035a04c2#npm:4.0.64", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-api-rest-virtual-8052f9f289/3/.yarn/berry/cache/@aws-amplify-api-rest-npm-4.0.64-55ea8aa11d-10c0.zip/node_modules/@aws-amplify/api-rest/",\
+      ["virtual:022872e56cc13db5f4e5485dbe916092f910cc80bd6fc42b00c6625253fedd6b2d9c541ebba67043051653260bcecd672b04cae1a0eaa1e01d20c439e5d440b7#npm:4.0.65-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-api-rest-virtual-ad415413f4/3/.yarn/berry/cache/@aws-amplify-api-rest-npm-4.0.65-unstable.9800-2c186a9c4e-10c0.zip/node_modules/@aws-amplify/api-rest/",\
         "packageDependencies": [\
-          ["@aws-amplify/api-rest", "virtual:7607f7521b314ff56475ced9a1d8221f215431c2d395b4e17b19ee5fadc57cbcb01c46839933ba37bb4c79d495a1717012b5423d8a13ed2aab3d35a4035a04c2#npm:4.0.64"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
-          ["@types/aws-amplify__core", null],\
-          ["tslib", "npm:2.8.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-amplify/core",\
-          "@types/aws-amplify__core"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:97f419eec73fb87f6863f73ae63c2a6f2edb293da8f8d63416c457ff58dfc44ce5e6464575777a9d40d63e667d3f1c05cbbc7a73e9edb9d3704873843d54ba0a#npm:4.0.64", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-api-rest-virtual-54459784b3/3/.yarn/berry/cache/@aws-amplify-api-rest-npm-4.0.64-55ea8aa11d-10c0.zip/node_modules/@aws-amplify/api-rest/",\
-        "packageDependencies": [\
-          ["@aws-amplify/api-rest", "virtual:97f419eec73fb87f6863f73ae63c2a6f2edb293da8f8d63416c457ff58dfc44ce5e6464575777a9d40d63e667d3f1c05cbbc7a73e9edb9d3704873843d54ba0a#npm:4.0.64"],\
-          ["@aws-amplify/core", null],\
+          ["@aws-amplify/api-rest", "virtual:022872e56cc13db5f4e5485dbe916092f910cc80bd6fc42b00c6625253fedd6b2d9c541ebba67043051653260bcecd672b04cae1a0eaa1e01d20c439e5d440b7#npm:4.0.65-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@types/aws-amplify__core", null],\
           ["tslib", "npm:2.8.1"]\
         ],\
@@ -272,18 +271,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/auth", [\
-      ["npm:6.9.0", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-auth-npm-6.9.0-9a7abfd358-10c0.zip/node_modules/@aws-amplify/auth/",\
+      ["npm:6.9.1-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-auth-npm-6.9.1-unstable.9800-f129156e72-10c0.zip/node_modules/@aws-amplify/auth/",\
         "packageDependencies": [\
-          ["@aws-amplify/auth", "npm:6.9.0"]\
+          ["@aws-amplify/auth", "npm:6.9.1-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.9.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-auth-virtual-dc4564036b/3/.yarn/berry/cache/@aws-amplify-auth-npm-6.9.0-9a7abfd358-10c0.zip/node_modules/@aws-amplify/auth/",\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.9.1-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-auth-virtual-ef8e2a8a45/3/.yarn/berry/cache/@aws-amplify-auth-npm-6.9.1-unstable.9800-f129156e72-10c0.zip/node_modules/@aws-amplify/auth/",\
         "packageDependencies": [\
-          ["@aws-amplify/auth", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.9.0"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/auth", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.9.1-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
+          ["@aws-crypto/sha256-js", "npm:5.2.0"],\
           ["@types/aws-amplify__core", null],\
           ["tslib", "npm:2.8.1"]\
         ],\
@@ -306,7 +306,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-auth-construct-virtual-471334c4bd/3/.yarn/berry/cache/@aws-amplify-auth-construct-npm-1.5.1-dfee1d8551-10c0.zip/node_modules/@aws-amplify/auth-construct/",\
         "packageDependencies": [\
           ["@aws-amplify/auth-construct", "virtual:f1d585140fb701c7bf431b3db9a87a0dc3c4f839150a437629a61c406c37bce2d5eb9796bcac843e460f3da0fd2e10691834cfbacae6c756d323e71a9d5acc01#npm:1.5.1"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/plugin-types", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.6.0"],\
           ["@aws-sdk/util-arn-parser", "npm:3.693.0"],\
@@ -339,7 +339,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-amplify/backend-auth", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.4.2"],\
           ["@aws-amplify/backend-data", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.3.0"],\
           ["@aws-amplify/backend-function", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.10.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/backend-secret", "npm:1.1.5"],\
           ["@aws-amplify/backend-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.2.4"],\
@@ -375,7 +375,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-amplify/backend-auth", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.4.2"],\
           ["@aws-amplify/auth-construct", "virtual:f1d585140fb701c7bf431b3db9a87a0dc3c4f839150a437629a61c406c37bce2d5eb9796bcac843e460f3da0fd2e10691834cfbacae6c756d323e71a9d5acc01#npm:1.5.1"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/plugin-types", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.6.0"],\
           ["@types/aws-cdk-lib", null],\
@@ -452,7 +452,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-backend-data-virtual-b54a2a719b/3/.yarn/berry/cache/@aws-amplify-backend-data-npm-1.3.0-37ed4d4fc9-10c0.zip/node_modules/@aws-amplify/backend-data/",\
         "packageDependencies": [\
           ["@aws-amplify/backend-data", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.3.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/data-construct", "virtual:b54a2a719bea3f2126dce0be5f6be4aaa0244224671afa0e4fcdb2d9bc4d850b563f7e9e1983b56aeb042d34145fb84d76be31f83fe5bd2c8653fe2c06d23600#npm:1.14.3"],\
           ["@aws-amplify/data-schema-types", "npm:1.2.0"],\
@@ -515,7 +515,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-backend-function-virtual-240a299849/3/.yarn/berry/cache/@aws-amplify-backend-function-npm-1.10.0-6e498f633f-10c0.zip/node_modules/@aws-amplify/backend-function/",\
         "packageDependencies": [\
           ["@aws-amplify/backend-function", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.10.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/plugin-types", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.6.0"],\
           ["@aws-sdk/client-s3", "npm:3.717.0"],\
@@ -554,19 +554,6 @@ const RAW_RUNTIME_STATE =
           "zod"\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-backend-output-schemas-virtual-e5beefff2e/3/.yarn/berry/cache/@aws-amplify-backend-output-schemas-npm-1.4.0-42d020e26b-10c0.zip/node_modules/@aws-amplify/backend-output-schemas/",\
-        "packageDependencies": [\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
-          ["@types/zod", null],\
-          ["zod", null]\
-        ],\
-        "packagePeers": [\
-          "@types/zod",\
-          "zod"\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@aws-amplify/backend-output-storage", [\
@@ -581,7 +568,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-backend-output-storage-virtual-631eae7718/3/.yarn/berry/cache/@aws-amplify-backend-output-storage-npm-1.1.4-be1cb61aaa-10c0.zip/node_modules/@aws-amplify/backend-output-storage/",\
         "packageDependencies": [\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/platform-core", "virtual:631eae7718c31bcbecf7f530a7e960ff8fa65e0d358dabca8dd29f35164d2f1b410578e3256ee6722cb0d074bc28fcc91a056926729ac591c04a446576647160#npm:1.4.0"],\
           ["@aws-amplify/plugin-types", "virtual:631eae7718c31bcbecf7f530a7e960ff8fa65e0d358dabca8dd29f35164d2f1b410578e3256ee6722cb0d074bc28fcc91a056926729ac591c04a446576647160#npm:1.6.0"],\
           ["@types/aws-cdk-lib", null],\
@@ -618,7 +605,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-backend-storage-virtual-24f9967455/3/.yarn/berry/cache/@aws-amplify-backend-storage-npm-1.2.4-9abd818388-10c0.zip/node_modules/@aws-amplify/backend-storage/",\
         "packageDependencies": [\
           ["@aws-amplify/backend-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.2.4"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/backend-output-storage", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.1.4"],\
           ["@aws-amplify/plugin-types", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.6.0"],\
           ["@types/aws-cdk-lib", null],\
@@ -661,7 +648,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-amplify/client-config", "virtual:4195acdb4133fd2cc495eb677f7f58e1a593aa6ae11a95c2a36ceb2adbac1f3cdac8ce39a91ab51112d39ae101dc056b50bab148a582b27509a0c1377fdf925c#npm:1.5.4"],\
           ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/deployed-backend-client", "virtual:f99142b8cde0d5ad1913eb46eb19f528462280eb1ccab86736d1da705fdfe010a795a6c7d31337a4e424894d3245d20292e70e80b33dc305eb443635180fa2e7#npm:1.5.0"],\
+          ["@aws-amplify/deployed-backend-client", "virtual:e7a9c5e6df0b580e5c12f8bfcba3f80bc256809ecb56ed2cef6d440eb060f8395c1c43f3a0db00dc4705b16d3bbc5664c08a81ae6aedc79e2bce340dee5e160c#npm:1.5.0"],\
           ["@aws-amplify/model-generator", "virtual:f99142b8cde0d5ad1913eb46eb19f528462280eb1ccab86736d1da705fdfe010a795a6c7d31337a4e424894d3245d20292e70e80b33dc305eb443635180fa2e7#npm:1.0.11"],\
           ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
           ["@aws-amplify/plugin-types", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.6.0"],\
@@ -715,7 +702,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-amplify/client-config", "virtual:85525a490d9a507dbd0e2c9c595e0ec525704347507da34bd09685c766a55d4ea87b1e1a9fa64830a79a8bf4028247202831f2652d006a58e4802793cc99f5ce#npm:1.5.4"],\
           ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/deployed-backend-client", "virtual:6ff86a63a506f42d61765e82dd2f78a47cc6053d389e83d3209e782dc5a1b4e0fafde3d50af5b6ac50a6a81076beeecbc5a64caa82389304b4cccaf176e36ece#npm:1.5.0"],\
+          ["@aws-amplify/deployed-backend-client", "virtual:e7a9c5e6df0b580e5c12f8bfcba3f80bc256809ecb56ed2cef6d440eb060f8395c1c43f3a0db00dc4705b16d3bbc5664c08a81ae6aedc79e2bce340dee5e160c#npm:1.5.0"],\
           ["@aws-amplify/model-generator", "virtual:6ff86a63a506f42d61765e82dd2f78a47cc6053d389e83d3209e782dc5a1b4e0fafde3d50af5b6ac50a6a81076beeecbc5a64caa82389304b4cccaf176e36ece#npm:1.0.11"],\
           ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
           ["@aws-amplify/plugin-types", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.6.0"],\
@@ -782,10 +769,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/core", [\
-      ["npm:6.8.0", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-core-npm-6.8.0-a1ccec1183-10c0.zip/node_modules/@aws-amplify/core/",\
+      ["npm:6.8.1-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-core-npm-6.8.1-unstable.9800-638aa62cbe-10c0.zip/node_modules/@aws-amplify/core/",\
         "packageDependencies": [\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@aws-crypto/sha256-js", "npm:5.2.0"],\
           ["@aws-sdk/types", "npm:3.398.0"],\
           ["@smithy/util-hex-encoding", "npm:2.0.0"],\
@@ -998,19 +985,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/datastore", [\
-      ["npm:5.0.66", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-datastore-npm-5.0.66-0dd72f713d-10c0.zip/node_modules/@aws-amplify/datastore/",\
+      ["npm:5.0.67-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-datastore-npm-5.0.67-unstable.9800-27212e2810-10c0.zip/node_modules/@aws-amplify/datastore/",\
         "packageDependencies": [\
-          ["@aws-amplify/datastore", "npm:5.0.66"]\
+          ["@aws-amplify/datastore", "npm:5.0.67-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:5.0.66", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-datastore-virtual-3086985208/3/.yarn/berry/cache/@aws-amplify-datastore-npm-5.0.66-0dd72f713d-10c0.zip/node_modules/@aws-amplify/datastore/",\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:5.0.67-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-datastore-virtual-b5d44d3903/3/.yarn/berry/cache/@aws-amplify-datastore-npm-5.0.67-unstable.9800-27212e2810-10c0.zip/node_modules/@aws-amplify/datastore/",\
         "packageDependencies": [\
-          ["@aws-amplify/datastore", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:5.0.66"],\
-          ["@aws-amplify/api", "npm:6.1.9"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/datastore", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:5.0.67-unstable.9800"],\
+          ["@aws-amplify/api", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.1.10-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@types/aws-amplify__core", null],\
           ["buffer", "npm:4.9.2"],\
           ["idb", "npm:5.0.6"],\
@@ -1032,35 +1019,6 @@ const RAW_RUNTIME_STATE =
           ["@aws-amplify/deployed-backend-client", "npm:1.5.0"]\
         ],\
         "linkType": "SOFT"\
-      }],\
-      ["virtual:09560ce3b0f7f89ca77ad8be718c445c147c0705344af9697a9f46a2b413b164f926ce380bae07bf328c7e20d23cf12e394674c020e1a036933e5f4c2300344e#npm:1.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-08131bfcbe/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
-        "packageDependencies": [\
-          ["@aws-amplify/deployed-backend-client", "virtual:09560ce3b0f7f89ca77ad8be718c445c147c0705344af9697a9f46a2b413b164f926ce380bae07bf328c7e20d23cf12e394674c020e1a036933e5f4c2300344e#npm:1.5.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
-          ["@aws-amplify/plugin-types", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.6.0"],\
-          ["@aws-sdk/client-amplify", null],\
-          ["@aws-sdk/client-cloudformation", null],\
-          ["@aws-sdk/client-s3", "npm:3.717.0"],\
-          ["@aws-sdk/types", "npm:3.714.0"],\
-          ["@types/aws-sdk__client-amplify", null],\
-          ["@types/aws-sdk__client-cloudformation", null],\
-          ["@types/aws-sdk__client-s3", null],\
-          ["@types/aws-sdk__types", null],\
-          ["zod", "npm:3.24.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-sdk/client-amplify",\
-          "@aws-sdk/client-cloudformation",\
-          "@aws-sdk/client-s3",\
-          "@aws-sdk/types",\
-          "@types/aws-sdk__client-amplify",\
-          "@types/aws-sdk__client-cloudformation",\
-          "@types/aws-sdk__client-s3",\
-          "@types/aws-sdk__types"\
-        ],\
-        "linkType": "HARD"\
       }],\
       ["virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.5.0", {\
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-d4845dd3a7/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
@@ -1091,64 +1049,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:6ff86a63a506f42d61765e82dd2f78a47cc6053d389e83d3209e782dc5a1b4e0fafde3d50af5b6ac50a6a81076beeecbc5a64caa82389304b4cccaf176e36ece#npm:1.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-a7f0372722/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
-        "packageDependencies": [\
-          ["@aws-amplify/deployed-backend-client", "virtual:6ff86a63a506f42d61765e82dd2f78a47cc6053d389e83d3209e782dc5a1b4e0fafde3d50af5b6ac50a6a81076beeecbc5a64caa82389304b4cccaf176e36ece#npm:1.5.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
-          ["@aws-amplify/plugin-types", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.6.0"],\
-          ["@aws-sdk/client-amplify", null],\
-          ["@aws-sdk/client-cloudformation", null],\
-          ["@aws-sdk/client-s3", null],\
-          ["@aws-sdk/types", null],\
-          ["@types/aws-sdk__client-amplify", null],\
-          ["@types/aws-sdk__client-cloudformation", null],\
-          ["@types/aws-sdk__client-s3", null],\
-          ["@types/aws-sdk__types", null],\
-          ["zod", "npm:3.24.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-sdk/client-amplify",\
-          "@aws-sdk/client-cloudformation",\
-          "@aws-sdk/client-s3",\
-          "@aws-sdk/types",\
-          "@types/aws-sdk__client-amplify",\
-          "@types/aws-sdk__client-cloudformation",\
-          "@types/aws-sdk__client-s3",\
-          "@types/aws-sdk__types"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:85525a490d9a507dbd0e2c9c595e0ec525704347507da34bd09685c766a55d4ea87b1e1a9fa64830a79a8bf4028247202831f2652d006a58e4802793cc99f5ce#npm:1.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-fa17733737/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
-        "packageDependencies": [\
-          ["@aws-amplify/deployed-backend-client", "virtual:85525a490d9a507dbd0e2c9c595e0ec525704347507da34bd09685c766a55d4ea87b1e1a9fa64830a79a8bf4028247202831f2652d006a58e4802793cc99f5ce#npm:1.5.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
-          ["@aws-amplify/plugin-types", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.6.0"],\
-          ["@aws-sdk/client-amplify", null],\
-          ["@aws-sdk/client-cloudformation", null],\
-          ["@aws-sdk/client-s3", null],\
-          ["@aws-sdk/types", "npm:3.714.0"],\
-          ["@types/aws-sdk__client-amplify", null],\
-          ["@types/aws-sdk__client-cloudformation", null],\
-          ["@types/aws-sdk__client-s3", null],\
-          ["@types/aws-sdk__types", null],\
-          ["zod", "npm:3.24.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-sdk/client-amplify",\
-          "@aws-sdk/client-cloudformation",\
-          "@aws-sdk/client-s3",\
-          "@aws-sdk/types",\
-          "@types/aws-sdk__client-amplify",\
-          "@types/aws-sdk__client-cloudformation",\
-          "@types/aws-sdk__client-s3",\
-          "@types/aws-sdk__types"\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["virtual:e7a9c5e6df0b580e5c12f8bfcba3f80bc256809ecb56ed2cef6d440eb060f8395c1c43f3a0db00dc4705b16d3bbc5664c08a81ae6aedc79e2bce340dee5e160c#npm:1.5.0", {\
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-64109ef314/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
         "packageDependencies": [\
@@ -1159,64 +1059,6 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/client-amplify", "npm:3.716.0"],\
           ["@aws-sdk/client-cloudformation", "npm:3.716.0"],\
           ["@aws-sdk/client-s3", "npm:3.717.0"],\
-          ["@aws-sdk/types", null],\
-          ["@types/aws-sdk__client-amplify", null],\
-          ["@types/aws-sdk__client-cloudformation", null],\
-          ["@types/aws-sdk__client-s3", null],\
-          ["@types/aws-sdk__types", null],\
-          ["zod", "npm:3.24.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-sdk/client-amplify",\
-          "@aws-sdk/client-cloudformation",\
-          "@aws-sdk/client-s3",\
-          "@aws-sdk/types",\
-          "@types/aws-sdk__client-amplify",\
-          "@types/aws-sdk__client-cloudformation",\
-          "@types/aws-sdk__client-s3",\
-          "@types/aws-sdk__types"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:e98f5ad89b4d2cbfdd4106254eb2ad57e581d4f0dde858dd3aefa1184a536f09110e1f1c0f7ceddb5f20e8099fb4ec61f22c191c35d2ce4c3d9837a2ba05ff4e#npm:1.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-850b631207/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
-        "packageDependencies": [\
-          ["@aws-amplify/deployed-backend-client", "virtual:e98f5ad89b4d2cbfdd4106254eb2ad57e581d4f0dde858dd3aefa1184a536f09110e1f1c0f7ceddb5f20e8099fb4ec61f22c191c35d2ce4c3d9837a2ba05ff4e#npm:1.5.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
-          ["@aws-amplify/plugin-types", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.6.0"],\
-          ["@aws-sdk/client-amplify", "npm:3.716.0"],\
-          ["@aws-sdk/client-cloudformation", null],\
-          ["@aws-sdk/client-s3", "npm:3.717.0"],\
-          ["@aws-sdk/types", "npm:3.714.0"],\
-          ["@types/aws-sdk__client-amplify", null],\
-          ["@types/aws-sdk__client-cloudformation", null],\
-          ["@types/aws-sdk__client-s3", null],\
-          ["@types/aws-sdk__types", null],\
-          ["zod", "npm:3.24.1"]\
-        ],\
-        "packagePeers": [\
-          "@aws-sdk/client-amplify",\
-          "@aws-sdk/client-cloudformation",\
-          "@aws-sdk/client-s3",\
-          "@aws-sdk/types",\
-          "@types/aws-sdk__client-amplify",\
-          "@types/aws-sdk__client-cloudformation",\
-          "@types/aws-sdk__client-s3",\
-          "@types/aws-sdk__types"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:f99142b8cde0d5ad1913eb46eb19f528462280eb1ccab86736d1da705fdfe010a795a6c7d31337a4e424894d3245d20292e70e80b33dc305eb443635180fa2e7#npm:1.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-deployed-backend-client-virtual-9df097cec8/3/.yarn/berry/cache/@aws-amplify-deployed-backend-client-npm-1.5.0-69d38305ab-10c0.zip/node_modules/@aws-amplify/deployed-backend-client/",\
-        "packageDependencies": [\
-          ["@aws-amplify/deployed-backend-client", "virtual:f99142b8cde0d5ad1913eb46eb19f528462280eb1ccab86736d1da705fdfe010a795a6c7d31337a4e424894d3245d20292e70e80b33dc305eb443635180fa2e7#npm:1.5.0"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
-          ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
-          ["@aws-amplify/plugin-types", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.6.0"],\
-          ["@aws-sdk/client-amplify", "npm:3.716.0"],\
-          ["@aws-sdk/client-cloudformation", null],\
-          ["@aws-sdk/client-s3", null],\
           ["@aws-sdk/types", null],\
           ["@types/aws-sdk__client-amplify", null],\
           ["@types/aws-sdk__client-cloudformation", null],\
@@ -2112,7 +1954,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-model-generator-virtual-9b24cd35dc/3/.yarn/berry/cache/@aws-amplify-model-generator-npm-1.0.11-4aa8e21a1f-10c0.zip/node_modules/@aws-amplify/model-generator/",\
         "packageDependencies": [\
           ["@aws-amplify/model-generator", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.0.11"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
           ["@aws-amplify/deployed-backend-client", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.5.0"],\
           ["@aws-amplify/graphql-generator", "npm:0.5.2"],\
           ["@aws-amplify/graphql-types-generator", "npm:3.6.0"],\
@@ -2140,8 +1982,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-model-generator-virtual-09560ce3b0/3/.yarn/berry/cache/@aws-amplify-model-generator-npm-1.0.11-4aa8e21a1f-10c0.zip/node_modules/@aws-amplify/model-generator/",\
         "packageDependencies": [\
           ["@aws-amplify/model-generator", "virtual:6ff86a63a506f42d61765e82dd2f78a47cc6053d389e83d3209e782dc5a1b4e0fafde3d50af5b6ac50a6a81076beeecbc5a64caa82389304b4cccaf176e36ece#npm:1.0.11"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
-          ["@aws-amplify/deployed-backend-client", "virtual:09560ce3b0f7f89ca77ad8be718c445c147c0705344af9697a9f46a2b413b164f926ce380bae07bf328c7e20d23cf12e394674c020e1a036933e5f4c2300344e#npm:1.5.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
+          ["@aws-amplify/deployed-backend-client", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.5.0"],\
           ["@aws-amplify/graphql-generator", "npm:0.5.2"],\
           ["@aws-amplify/graphql-types-generator", "npm:3.6.0"],\
           ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
@@ -2168,8 +2010,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@aws-amplify-model-generator-virtual-e98f5ad89b/3/.yarn/berry/cache/@aws-amplify-model-generator-npm-1.0.11-4aa8e21a1f-10c0.zip/node_modules/@aws-amplify/model-generator/",\
         "packageDependencies": [\
           ["@aws-amplify/model-generator", "virtual:f99142b8cde0d5ad1913eb46eb19f528462280eb1ccab86736d1da705fdfe010a795a6c7d31337a4e424894d3245d20292e70e80b33dc305eb443635180fa2e7#npm:1.0.11"],\
-          ["@aws-amplify/backend-output-schemas", "virtual:9b24cd35dc2d60e83d3acba7e1565bc39ebc73da15ac6c2b264a37aa7237cc3aeccc6c919d0a69100cdee1c91b9ba82e1a5d3342d0d761522d8d94f92a77929e#npm:1.4.0"],\
-          ["@aws-amplify/deployed-backend-client", "virtual:e98f5ad89b4d2cbfdd4106254eb2ad57e581d4f0dde858dd3aefa1184a536f09110e1f1c0f7ceddb5f20e8099fb4ec61f22c191c35d2ce4c3d9837a2ba05ff4e#npm:1.5.0"],\
+          ["@aws-amplify/backend-output-schemas", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.4.0"],\
+          ["@aws-amplify/deployed-backend-client", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.5.0"],\
           ["@aws-amplify/graphql-generator", "npm:0.5.2"],\
           ["@aws-amplify/graphql-types-generator", "npm:3.6.0"],\
           ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
@@ -2194,18 +2036,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/notifications", [\
-      ["npm:2.0.64", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-notifications-npm-2.0.64-05abf78e8c-10c0.zip/node_modules/@aws-amplify/notifications/",\
+      ["npm:2.0.65-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-notifications-npm-2.0.65-unstable.9800-1823e9d189-10c0.zip/node_modules/@aws-amplify/notifications/",\
         "packageDependencies": [\
-          ["@aws-amplify/notifications", "npm:2.0.64"]\
+          ["@aws-amplify/notifications", "npm:2.0.65-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:2.0.64", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-notifications-virtual-fbd5f57bc0/3/.yarn/berry/cache/@aws-amplify-notifications-npm-2.0.64-05abf78e8c-10c0.zip/node_modules/@aws-amplify/notifications/",\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:2.0.65-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-notifications-virtual-106659a701/3/.yarn/berry/cache/@aws-amplify-notifications-npm-2.0.65-unstable.9800-1823e9d189-10c0.zip/node_modules/@aws-amplify/notifications/",\
         "packageDependencies": [\
-          ["@aws-amplify/notifications", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:2.0.64"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/notifications", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:2.0.65-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@types/aws-amplify__core", null],\
           ["lodash", "npm:4.17.21"],\
           ["tslib", "npm:2.8.1"]\
@@ -2431,7 +2273,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-amplify/backend-secret", "npm:1.1.5"],\
           ["@aws-amplify/cli-core", "npm:1.2.1"],\
           ["@aws-amplify/client-config", "virtual:85525a490d9a507dbd0e2c9c595e0ec525704347507da34bd09685c766a55d4ea87b1e1a9fa64830a79a8bf4028247202831f2652d006a58e4802793cc99f5ce#npm:1.5.4"],\
-          ["@aws-amplify/deployed-backend-client", "virtual:85525a490d9a507dbd0e2c9c595e0ec525704347507da34bd09685c766a55d4ea87b1e1a9fa64830a79a8bf4028247202831f2652d006a58e4802793cc99f5ce#npm:1.5.0"],\
+          ["@aws-amplify/deployed-backend-client", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.5.0"],\
           ["@aws-amplify/platform-core", "virtual:e04c85cabeb3d232b49c5c73f256763cdfde68c334dc7a4b426af97768dd7a32b45bc5285a1def989ada432a4afcfca8e567686aac2ae65e3157afbacea4b2e2#npm:1.4.0"],\
           ["@aws-amplify/plugin-types", "virtual:5c72d7df6b66714a1e32708a3e5b6490d2d0968a275d954b40f62fdee850aed02e0d7f6e61a214c62e23583621eef5b845f71f32ef3d5e3d5cf1939882a8f656#npm:1.6.0"],\
           ["@aws-sdk/client-cloudwatch-logs", "npm:3.716.0"],\
@@ -2466,18 +2308,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@aws-amplify/storage", [\
-      ["npm:6.7.5", {\
-        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-storage-npm-6.7.5-d748341e44-10c0.zip/node_modules/@aws-amplify/storage/",\
+      ["npm:6.7.6-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/@aws-amplify-storage-npm-6.7.6-unstable.9800-73e6b532d4-10c0.zip/node_modules/@aws-amplify/storage/",\
         "packageDependencies": [\
-          ["@aws-amplify/storage", "npm:6.7.5"]\
+          ["@aws-amplify/storage", "npm:6.7.6-unstable.9800"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.7.5", {\
-        "packageLocation": "./.yarn/__virtual__/@aws-amplify-storage-virtual-0560afd984/3/.yarn/berry/cache/@aws-amplify-storage-npm-6.7.5-d748341e44-10c0.zip/node_modules/@aws-amplify/storage/",\
+      ["virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.7.6-unstable.9800", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-amplify-storage-virtual-ef12a68994/3/.yarn/berry/cache/@aws-amplify-storage-npm-6.7.6-unstable.9800-73e6b532d4-10c0.zip/node_modules/@aws-amplify/storage/",\
         "packageDependencies": [\
-          ["@aws-amplify/storage", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.7.5"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
+          ["@aws-amplify/storage", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.7.6-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
           ["@aws-sdk/types", "npm:3.398.0"],\
           ["@smithy/md5-js", "npm:2.0.7"],\
           ["@types/aws-amplify__core", null],\
@@ -9031,17 +8873,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["aws-amplify", [\
-      ["npm:6.11.0", {\
-        "packageLocation": "../../.yarn/berry/cache/aws-amplify-npm-6.11.0-b30c3e8663-10c0.zip/node_modules/aws-amplify/",\
+      ["npm:6.11.1-unstable.9800", {\
+        "packageLocation": "../../.yarn/berry/cache/aws-amplify-npm-6.11.1-unstable.9800-7b4a79a8eb-10c0.zip/node_modules/aws-amplify/",\
         "packageDependencies": [\
-          ["aws-amplify", "npm:6.11.0"],\
-          ["@aws-amplify/analytics", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:7.0.64"],\
-          ["@aws-amplify/api", "npm:6.1.9"],\
-          ["@aws-amplify/auth", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.9.0"],\
-          ["@aws-amplify/core", "npm:6.8.0"],\
-          ["@aws-amplify/datastore", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:5.0.66"],\
-          ["@aws-amplify/notifications", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:2.0.64"],\
-          ["@aws-amplify/storage", "virtual:b30c3e86631f4fdc6f39c4e8cd9e0310e04f5bf1444ddab44cf4c1153c4ead0b46393c08a28089b56dbfcdb8476c47f95f55e279191df509c2ce4cc0e1f248f0#npm:6.7.5"],\
+          ["aws-amplify", "npm:6.11.1-unstable.9800"],\
+          ["@aws-amplify/analytics", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:7.0.65-unstable.9800"],\
+          ["@aws-amplify/api", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.1.10-unstable.9800"],\
+          ["@aws-amplify/auth", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.9.1-unstable.9800"],\
+          ["@aws-amplify/core", "npm:6.8.1-unstable.9800"],\
+          ["@aws-amplify/datastore", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:5.0.67-unstable.9800"],\
+          ["@aws-amplify/notifications", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:2.0.65-unstable.9800"],\
+          ["@aws-amplify/storage", "virtual:7b4a79a8eb5fbf1889da7743b0f5a893ec81f8ac5f7d0e65b2748c8280cb2a43ce93ae9ff15eb037eae57098bad5cf06e6bd06f027ac3a99c39750dbd4e5c0cb#npm:6.7.6-unstable.9800"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
@@ -10023,7 +9865,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:19.0.2"],\
           ["@types/react-dom", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:19.0.2"],\
           ["@vitejs/plugin-react", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:4.3.4"],\
-          ["aws-amplify", "npm:6.11.0"],\
+          ["aws-amplify", "npm:6.11.1-unstable.9800"],\
           ["aws-cdk-lib", "virtual:56be8850794faeba0747c58c54bd4884241e1050d2adeb31c38fd88faf7ff5ccc6e434cc9957b057ff0e32de6388fbcd23ad893dd5e8a94f68cde79f7966aa98#npm:2.173.2"],\
           ["constructs", "npm:10.4.2"],\
           ["react", "npm:19.0.0"],\
