@@ -18,7 +18,7 @@
     "vite": "^6.0.5"
   },
   "dependencies": {
-    "aws-amplify": "6.11.1-unstable.9800+59586ca1c",
+    "aws-amplify": "^6.11.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   }
